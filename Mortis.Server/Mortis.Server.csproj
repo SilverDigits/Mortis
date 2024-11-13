@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5C9C5678-334D-45C7-AC72-34AB041DBBDF}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>Mortis.Server</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Abstractions">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Core">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Server">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Validation">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Http.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Extensions.DependencyInjection">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.Integration.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Server.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Server.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.Validation.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Validation.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi.Owin">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Autofac.Integration.WebApi.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenIddict.EntityFramework">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="OpenIddict.Validation.ServerIntegration">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\OpenIddict.Validation.ServerIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Users\JasonKitchen\source\repos\StargateOIDC\Mortis.Server\bin\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationConfig Include="Mortis.Server.dll.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Microsoft.CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Mortis.Server.Controllers\AccountController.cs" />
+    <Compile Include="Mortis.Server.Controllers\AuthorizationController.cs" />
+    <Compile Include="Mortis.Server.Controllers\HomeController.cs" />
+    <Compile Include="Mortis.Server.Controllers\ManageController.cs" />
+    <Compile Include="Mortis.Server.Controllers\ResourceController.cs" />
+    <Compile Include="Mortis.Server.Helpers\AsyncEnumerableExtensions.cs" />
+    <Compile Include="Mortis.Server.Helpers\FormValueRequiredAttribute.cs" />
+    <Compile Include="Mortis.Server.Models\AddPhoneNumberViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ApplicationDbContext.cs" />
+    <Compile Include="Mortis.Server.Models\ApplicationUser.cs" />
+    <Compile Include="Mortis.Server.Models\ChangePasswordViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ConfigureTwoFactorViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ExternalLoginConfirmationViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ExternalLoginListViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\FactorViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ForgotPasswordViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ForgotViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\IndexViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\LoginViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ManageLoginsViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\RegisterViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\ResetPasswordViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\SendCodeViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\SetPasswordViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\VerifyCodeViewModel.cs" />
+    <Compile Include="Mortis.Server.Models\VerifyPhoneNumberViewModel.cs" />
+    <Compile Include="Mortis.Server.ViewModels.Authorization\AuthorizeViewModel.cs" />
+    <Compile Include="Mortis.Server.ViewModels.Authorization\LogoutViewModel.cs" />
+    <Compile Include="Mortis.Server\ApplicationSignInManager.cs" />
+    <Compile Include="Mortis.Server\ApplicationUserManager.cs" />
+    <Compile Include="Mortis.Server\BundleConfig.cs" />
+    <Compile Include="Mortis.Server\EmailService.cs" />
+    <Compile Include="Mortis.Server\FilterConfig.cs" />
+    <Compile Include="Mortis.Server\MvcApplication.cs" />
+    <Compile Include="Mortis.Server\RouteConfig.cs" />
+    <Compile Include="Mortis.Server\SmsService.cs" />
+    <Compile Include="Mortis.Server\Startup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System.Runtime.CompilerServices\NullableContextAttribute.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

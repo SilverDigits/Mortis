@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mortis.Server", "Mortis.Server\Mortis.Server.csproj", "{5C9C5678-334D-45C7-AC72-34AB041DBBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mortis.Client", "Mortis.Client\Mortis.Client.csproj", "{363C98F8-DBD0-45CC-860E-61FED498CEA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C9C5678-334D-45C7-AC72-34AB041DBBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9C5678-334D-45C7-AC72-34AB041DBBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9C5678-334D-45C7-AC72-34AB041DBBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9C5678-334D-45C7-AC72-34AB041DBBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363C98F8-DBD0-45CC-860E-61FED498CEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363C98F8-DBD0-45CC-860E-61FED498CEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363C98F8-DBD0-45CC-860E-61FED498CEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363C98F8-DBD0-45CC-860E-61FED498CEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {096DA794-F39F-4331-9119-C70C860DA11D}
+	EndGlobalSection
+EndGlobal
